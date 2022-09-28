@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Products } from '../../screens/Home';
+import { Products } from '../../_mocks/Products/productsMock';
 import CardProducts from './components/CardProducts';
 import {
   Container,

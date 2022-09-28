@@ -5,11 +5,23 @@ import banner from './assets/images/banner-image.png';
 export const Container = styled.div``;
 
 export const Banner = styled.section`
+  display: flex;
   height: 352px;
 
   background-image: url(${banner});
 
+  background-position: center;
+
+  background-size: auto;
+
+  justify-content: start;
+
   padding: 150px 152px 32px 152px;
+
+  @media (max-width: 920px) {
+    align-items: flex-end;
+    padding: 32px;
+  }
 `;
 
 export const ContainerPromotion = styled.div`
@@ -17,6 +29,8 @@ export const ContainerPromotion = styled.div`
   flex-direction: column;
   gap: 16px;
   color: #ffffff;
+
+  white-space: nowrap;
 
   h2 {
     font-family: 'Raleway';

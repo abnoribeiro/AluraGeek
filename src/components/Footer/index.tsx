@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         </FooterSections>
       </FooterContent>
       <Copyright>
-        <h4>Desenvolvido por Abno Ribeiro 2021</h4>
+        <h4>Desenvolvido por Abno Ribeiro 2022</h4>
       </Copyright>
     </Container>
   );

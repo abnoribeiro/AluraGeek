@@ -15,6 +15,10 @@ export const Container = styled.div`
 
   padding: 0 16px;
   margin-left: 32px;
+
+  @media (max-width: 1220px) {
+    width: 100%;
+  }
 `;
 
 export const Input = styled.input`

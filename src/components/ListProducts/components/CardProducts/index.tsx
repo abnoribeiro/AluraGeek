@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { numberInPrince } from '../../../../helpers/numbers/NumberInPrince';
 import { Container } from './styled';
 
 interface PropsProducts {
@@ -17,7 +18,7 @@ const CardProducts: React.FC<PropsProducts> = ({
     <Container>
       <img src={image}></img>
       <h2>{title}</h2>
-      <h3>{price}</h3>
+      <h3>{numberInPrince(price)}</h3>
       <h4>Ver produto</h4>
     </Container>
   );
